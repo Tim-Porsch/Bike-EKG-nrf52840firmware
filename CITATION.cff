@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Bitte für Verweise auf diesen Firmwarestand diese Angaben verwenden."
+type: software
+title: "Bike-EKG: nRF52840-Firmware"
+authors:
+  - family-names: Porsch
+    given-names: Tim
+version: "0.12.5"
+date-released: 2026-10-24
+repository-code: "https://github.com/Tim-Porsch/Bike-EKG-nrf52840firmware"
+url: "https://github.com/Tim-Porsch/Bike-EKG-nrf52840firmware/releases/tag/v0.12.5-ba"

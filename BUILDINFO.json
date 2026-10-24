@@ -1,0 +1,40 @@
+{
+  "firmware_version": "0.12.5",
+  "release_date": "2026-10-24",
+  "fqbn": "adafruit:nrf52:feather52840:softdevice=s140v6,debug=l0,debug_output=serial",
+  "platform": "adafruit:nrf52@1.7.0",
+  "arduino_cli": "1.2.0",
+  "arm_gcc": "9.2.1 20191025 (9-2019q4)",
+  "adafruit_nrfutil": "0.5.3.post16",
+  "cmsis": "5.7.0",
+  "sd_chip_select_mode": 1,
+  "libraries": {
+    "Adafruit TinyUSB Library": "3.6.0",
+    "SPI": "1.0",
+    "Adafruit Bluefruit nRF52 Libraries": "0.21.0",
+    "Adafruit nRFCrypto": "0.1.2",
+    "SdFat": "2.3.0",
+    "Adafruit Little File System Libraries": "0.11.0",
+    "Adafruit Internal File System on Bluefruit nRF52": "0.11.0"
+  },
+  "program_bytes": 189308,
+  "static_ram_bytes": 52788,
+  "release_hex_hardware_tested": false,
+  "hardware_testing": {
+    "firmware_version": "0.12.5",
+    "functions": [
+      "SD recording",
+      "USB console/stream",
+      "BLE control/preview",
+      "BLE SD download"
+    ]
+  },
+  "host_tests": {
+    "programs": 11,
+    "address_and_undefined_behavior_sanitizers": true
+  },
+  "hex_sha256": "1ed8190123fde951ad73117f32d8a2f12a7fa4e3213fa75cc582fd523eb933b0",
+  "dependencies_zip_sha256": "d2b6fce62d9fba8614fec9595bfec7879f32bbeabaa597cfead802fbf106c672",
+  "repository": "https://github.com/Tim-Porsch/Bike-EKG-nrf52840firmware",
+  "release_tag": "v0.12.5-ba"
+}
